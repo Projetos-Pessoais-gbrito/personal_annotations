@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "86b9e43b5b0a1197",
+        "id": "b915ef1703e0c3ed",
         "type": "tabs",
         "children": [
           {
-            "id": "d4c9e3ab90990316",
+            "id": "2d1b5fd681831ea1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MakeFile/Conceitos.md",
+                "file": "01 - C Concepts/System Call/How to manipulate archives.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MakeFile/Conceitos.md",
+                "file": "01 - C Concepts/System Call/How to manipulate archives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MakeFile/Conceitos.md",
+                "file": "01 - C Concepts/System Call/How to manipulate archives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MakeFile/Conceitos.md"
+                "file": "01 - C Concepts/System Call/How to manipulate archives.md"
               }
             }
           }
@@ -146,11 +146,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4c9e3ab90990316",
+  "active": "2d1b5fd681831ea1",
   "lastOpenFiles": [
-    "MakeFile/Comandos comuns.md",
-    "MakeFile/O que é MakeFile.md",
-    "MakeFile/Conceitos.md",
-    "MakeFile"
+    "01 - C Concepts/Heap and Stack/Diff.md",
+    "00 - Assets/Pasted image 20241008235159.png",
+    "00 - Assets/Pasted image 20241009081552.png",
+    "00 - Assets/Untitled.canvas",
+    "01 - C Concepts/System Call/How to manipulate archives.md",
+    "00 - Assets",
+    "01 - C Concepts/Heap and Stack",
+    "01 - C Concepts/System Call",
+    "02 - MakeFile/Conceitos.md",
+    "01 - C Concepts",
+    "02 - MakeFile/Comandos comuns.md",
+    "02 - MakeFile/O que é MakeFile.md",
+    "02 - MakeFile"
   ]
 }

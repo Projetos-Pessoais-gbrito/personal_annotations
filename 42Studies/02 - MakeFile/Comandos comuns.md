@@ -1,4 +1,4 @@
-### Principais comandos
+	### Principais comandos
 	- Para fazer uma execução silenciosa basta colocar um "@"
 ```c 
 	@echo "Olá Mundo"
@@ -25,3 +25,4 @@
 ```
 	Dessa forma acima basta apenas reutilizar esse caminho acima em outras partes do Makefile.
 	- EX_DIRS := $(wildcard cExercices/ex*/) define a variavel por todos que arquivos que comecam com ex e tem um valor indefinido.
+		- Para referenciar um .h que ajudara na criacao do makefile basta -I que indica um diretorio que contem um .h

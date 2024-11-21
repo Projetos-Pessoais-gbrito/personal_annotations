@@ -5,7 +5,13 @@
 	<p align="justify-center">
 		Then i have to use the function read, whatout to read man, when you read all specfied lenght that you put on read you have to put a null character on final of buff.
 	</p>
+	<p>
+		Static it saves the data changed on last call.
+	</p>
 </div>
+Assistir esse video depois https://youtu.be/NKTfNv2T0FE
+Aula do CS50
+
 <h2 align="center">All bout fds bellow</h2>
 <p align="justify-center">Every time i write on fd = 1 i write in an archive in system that holds that content momentarly</p>
 ![[ls -l of fd.png]]
@@ -21,7 +27,9 @@ To encounter that visualizations on windows you can type lsof -p 'pid of the pro
 ![[all about fd.png]]
 
 <p align = "justify-center">The image above it shows how fds are on system, they are of type c that is equal to xxxxx, with that you can note that everything on linux is a file.</p>
-	<h3 align="center" >Functions needed and its mannuals</h3>
+
+
+<h3 align="center" >Functions needed and its mannuals</h3>
 <h4 align="center">Read()</h4>
 https://man7.org/linux/man-pages/man2/read.2.html
 
@@ -29,6 +37,10 @@ https://man7.org/linux/man-pages/man2/read.2.html
 
 <p>The read func holds the last position readed so it can read from the start of the last pos holded, like example bellow</p>
 ![[ex_read_func.png]]
+
+When read is called like read(fd, get_next_line, 0) < 0, its a verification to see if read can open the file.
+
+Usually the num max of fd to open in a OS is 1024.
 
 <h4 align="center">Malloc()</h4>
 ![[man_malloc.png]]
